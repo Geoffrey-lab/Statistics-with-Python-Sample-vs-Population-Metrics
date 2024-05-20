@@ -7,11 +7,13 @@ This section provides examples of how to calculate the mean for both a populatio
 
 Population Mean: Calculated using the entire dataset.
 Sample Mean: Calculated using a subset of the dataset.
+
 2. Variance Calculation
 This section covers the computation of variance for both the population and a sample. It explains the differences between population variance (using the entire dataset) and sample variance (using a subset of the dataset).
 
 Population Variance: Calculated with degrees of freedom (ddof) set to 0.
 Sample Variance: Calculated with degrees of freedom (ddof) set to 1.
+
 3. Central Limit Theorem (CLT)
 The Central Limit Theorem section demonstrates the principle that the distribution of sample means approximates a normal distribution, regardless of the shape of the population distribution, as the sample size increases. The script repeatedly takes random samples from the dataset, calculates their means, and plots the distribution of these sample means.
 
